@@ -1,5 +1,4 @@
-require('./css/main.css')
-require('./stylus/main.styl')
+import 'assets/styles/main.less'
 require('es6-promise').polyfill()
 import { app, store } from './app'
 

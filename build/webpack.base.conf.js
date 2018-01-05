@@ -50,12 +50,8 @@ const config = {
         loader: ExtractTextPlugin.extract(['css-loader'])
       },
       {
-        test: /\.styl$/,
-        loader: ExtractTextPlugin.extract(['css-loader', 'stylus-loader'])
-      },
-      {
-        test: /\.scss$/,
-        loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
+        test: /\.less$/,
+        loader: ExtractTextPlugin.extract(['css-loader', 'less-loader'])
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
